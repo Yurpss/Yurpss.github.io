@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yurps burps</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+    h1 {text-align: center;}
+    h2 {text-align: center;}
+    p {text-align: center;}
+    div {text-align: center;}
+    
+    //body {
+      background-image: url('https://runescape.wiki/images/thumb/Skeleton_warrior_%28Ancient_Awakening%29.png/800px-Skeleton_warrior_%28Ancient_Awakening%29.png?3eb35');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+  </head>
+  
+  <body>
+    <h1>Yurps</h1>
+    
+    <h1>&nbsp;</h1>
+    <h2><i>Ókláraðar Krant pælingar</i></h2>
+    <p style="color:black;">Nú hafa liðið sirka tvær vikur síðan ég gékk í þann leiðangur að hlusta á Eragon bækurnar, öðru nafni Inheritance cycle serían, sem voru skrifaðar af okkar manni Christopher Paolini (ég kalla hann ástúðlega chris po). </p>
+</html>
