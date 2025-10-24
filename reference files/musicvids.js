@@ -1,7 +1,30 @@
-/*Abandoned for now*/
-const videoIDs = [
-    "https://youtu.be/K8GYYzzIpx8?si=1n4MILDUVVvns8S-",
-    "https://youtu.be/wsglGcaQd3g?si=qE9IiBBHvZm26jfv",
-    "https://youtu.be/1XGrEWNcbso?si=8qOjaraTm3duHkzA",
-    "https://youtu.be/x7r6XgjVdMY?si=AJVr5c_bdDkTdvcM"
+const videos = [
+  "dQw4w9WgXcQ", 
+  "tVj0ZTS4WF4", 
+  "3JZ_D3ELwOQ"  
 ];
+
+let currentIndex = 0;
+
+
+const player = document.getElementById('player');
+
+
+function loadVideo(index) {
+  const videoId = videos[index];
+  player.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+}
+
+
+loadVideo(currentIndex);
+
+
+document.getElementById('nextBtn').addEventListener('click', () => {
+  currentIndex = (currentIndex + 1) % videos.length; 
+  loadVideo(currentIndex);
+});
+
+document.getElementById('prevBtn').addEventListener('click', () => {
+  currentIndex = (currentIndex - 1 + videos.length) % videos.length; 
+  loadVideo(currentIndex);
+});

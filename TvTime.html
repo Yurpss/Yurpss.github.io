@@ -14,6 +14,30 @@
       /*background-image: url(https://runescape.wiki/images/thumb/Skeleton_warrior_%28Ancient_Awakening%29.png/800px-Skeleton_warrior_%28Ancient_Awakening%29.png?3eb35);
       background-size: 100px;*/
       }
+
+    .tv-container {
+        text-align: center;
+    }
+
+    .video-wrapper {
+        margin-bottom: 20px;
+    }
+
+    button {
+        background-color: #222;
+        color: white;
+        border: 1px solid #555;
+        padding: 10px 20px;
+        margin: 0 10px;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+
+    button:hover {
+        background-color: #444;
+    }
+
     </style>
   </head>
 
@@ -27,6 +51,26 @@
       <a href="https://www.instagram.com/james_eirikur_?igsh=MTByaDUzZXMzM3F2eQ==">Instagram</a>
       <a href="https://www.pricecharting.com/offers?seller=4jqmq4y6hhgcc5nykflhplc2lm&status=collection">Game collection</a>
     </div>
+
+   <div class="tv-container">
+    <div class="video-wrapper">
+      <iframe id="player"
+        width="560"
+        height="315"
+        src=""
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="controls">
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+    </div>
+  </div>
+
+  <script src="reference files/musicvids.js"></script>
 
   </body>
 </html>
