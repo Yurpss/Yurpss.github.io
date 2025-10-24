@@ -27,10 +27,20 @@
        
         <h1>All things Garfield!?</h1>
         <br><br>
-        <div class="box4"><h3>&nbsp;The Garfield Show <i>(playlist of episodes) &nbsp;</i></h3></div>
-        <iframe width="420" height="315"
-            src="https://www.youtube.com/embed/?listType=playlist&list=PLvuzSfgyTCTOQzNxSmJnNt1cf1OEvkbgt&index=3" frameborder="0" allowfullscreen>
-        </iframe>
-
+        <div class="garfcontainer">
+            <div class="garfshow">
+                <div class="box4"><h3>&nbsp;The Garfield Show <i>(playlist of episodes) &nbsp;</i></h3></div>
+                <iframe width="420" height="315"
+                    src="https://www.youtube.com/embed/?listType=playlist&list=PLvuzSfgyTCTOQzNxSmJnNt1cf1OEvkbgt&index=3" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+            <div class="garfpanels">
+                <img id="rndImg" src="https://www.mezzacotta.net/garfield/comics/0786.png" alt="Garfield comic strip">
+                <br>
+                <!-- Button to get a random strip -->
+                <button id="rndBtn">Show Random Strip</button>
+            </div>
+            <script src="garfield_strips.js"></script>
+        </div>
     </body>
 </html>

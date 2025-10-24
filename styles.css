@@ -44,6 +44,25 @@
       border-radius: 20px;
     }
 
+    .garfcontainer {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: fit-content;
+      gap: 30rem;
+    }
+
+    .garfshow, .garfpanels {
+      flex: 1;
+      min-width: 400px;
+    }
+
+    @media screen and (max-with: 600px) {
+      .garfcontainer {
+        flex-direction: column;
+      }
+    }
+
     article {
       -webkit-flex: 3;
       -ms-flex: 3;
@@ -136,5 +155,30 @@ a {
     }
 
     button:hover {
+      background-color: #c00000;
+    }
+
+
+   
+    #rndImg {
+      max-width: 500px;
+      min-width: 500px;
+      height: auto;
+      border: 2px solid #000;
+      border-radius: 5px;
+    }
+
+    #rndBtn {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #f10000;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+    }
+
+    #rndBtn:hover {
       background-color: #c00000;
     }
