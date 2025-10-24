@@ -6,12 +6,7 @@
     h4 {text-align: center;}
     div {text-align: center;}
 
-    body {
-      margin: 0;
-      background-image: url(https://runescape.wiki/images/thumb/Skeleton_warrior_%28Ancient_Awakening%29.png/800px-Skeleton_warrior_%28Ancient_Awakening%29.png?3eb35);
-      background-repeat: no-repeat;
-      background-position: 75%;
-    }
+    
 
     .box1 {
       display: flex;
@@ -35,7 +30,9 @@
     }
 
     .box3 {
-      
+      background-color: lightblue;
+      width: fit-content;
+      display: flex;
     }
 
     article {
