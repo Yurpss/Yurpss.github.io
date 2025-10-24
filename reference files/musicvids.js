@@ -31,16 +31,27 @@ function shuffle(array) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]]; // swap
   }
+}
 
-let currentIndex = 0;
+let shuffledVideos = JSON.parse(localStorage.getItem("shuffledVideos"));
+
+
+if (!shuffledVideos) {
+  shuffledVideos = [...videos];
+  shuffle(shuffledVideos);
+  localStorage.setItem("shuffledVideos", JSON.stringify(shuffledVideos));
+}
+
+let currentIndex = parseInt(localStorage.getItem("currentIndex")) || 0;
 
 
 const player = document.getElementById('player');
 
 
 function loadVideo(index) {
-  const videoId = videos[index];
+  const videoId = shuffledVideos[index];
   player.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+  localStorage.setItem("currentIndex", index);
 }
 
 
