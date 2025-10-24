@@ -19,12 +19,18 @@ const videos = [
   'sQGOlawi6n0',
   'bFgv8Jq4xN0',
   'e_RXSxOpL-g',
-  'Pls01adPSps', //confusion the witress//
+  'Pls01adPSps', //confusion the witress//can w
   'PW1GfcYansk',
   'i-P98B2skts',
   'GhcyQ9fETuk',
   'bYe-bLaqhhY'
 ];
+
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]]; // swap
+  }
 
 let currentIndex = 0;
 
