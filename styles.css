@@ -7,6 +7,7 @@
     div {text-align: center;}
 
     body {
+      margin: 0;
       background-image: url(https://runescape.wiki/images/thumb/Skeleton_warrior_%28Ancient_Awakening%29.png/800px-Skeleton_warrior_%28Ancient_Awakening%29.png?3eb35);
       background-repeat: no-repeat;
       background-position: 75%;
@@ -31,6 +32,10 @@
       background-color: black;
       width: fit-content;
       border-radius: 10px;
+    }
+
+    .box3 {
+      
     }
 
     article {
@@ -67,23 +72,26 @@
 /*stela af Stefáni hehehe*/
 .navbar {
 	width: 100%;
-	background-color: #1d2021;
+	background-color: #5e5e5e;
 	overflow: auto;
 	top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navbar a {
   float: left;
   text-align: center;
   padding: 12px;
-  color: #ebdbb2;
+  color: #ffffff;
   text-decoration: none;
   font-size: 17px;
 }
 .navbar a:hover {
-  background-color: #282828;
+  background-color: #000000;
 }
 .active {
-  background-color: #04AA6D;
+  background-color: #f10000;
 }
 
 @media screen and (max-width: 500px) {
