@@ -101,3 +101,31 @@
 a {
 	text-align: center;
 }
+
+
+
+ #video-container {
+      margin-top: 20px;
+    }
+
+    iframe {
+      width: 560px;
+      height: 315px;
+      border: none;
+      border-radius: 10px;
+      max-width: 90%; /* makes it responsive on phones */
+    }
+
+    button {
+      background-color: #f10000;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 18px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #c00000;
+    }
