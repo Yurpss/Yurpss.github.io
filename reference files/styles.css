@@ -182,3 +182,16 @@ a {
     #rndBtn:hover {
       background-color: #c00000;
     }
+
+
+    #text-display {
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #f8f8f8;
+      border-radius: 10px;
+      white-space: pre-wrap; /* keeps your line breaks */
+      font-family: 'Georgia', serif;
+      font-size: 18px;
+      line-height: 1.6;
+    }
