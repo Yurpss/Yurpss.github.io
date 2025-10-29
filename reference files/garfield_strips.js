@@ -15,7 +15,11 @@ const images = [
   'https://www.mezzacotta.net/garfield/comics/2548.png',
   'https://www.mezzacotta.net/garfield/comics/2552.png',
   'https://www.mezzacotta.net/garfield/comics/2553.png',
-  'https://www.mezzacotta.net/garfield/comics/2554.png'
+  'https://www.mezzacotta.net/garfield/comics/2554.png',
+
+'https://www.instagram.com/p/DQOz-NxkaRF/?igsh=MnJiaWV0ZWFsZjZ1',
+
+'https://www.instagram.com/p/DQXVRXAicvm/?igsh=amd0dGFseHR3ZXhl'
 ]; 
 
 const btn = document.getElementById('rndBtn'); 
